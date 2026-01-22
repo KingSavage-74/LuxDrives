@@ -17,7 +17,6 @@ body {
     padding: 0 40px;
 }
 
-/* Header */
 .header {
     height: 90px;
     margin: 0px 100px;
@@ -62,7 +61,7 @@ body {
 .hero {
     position: relative;
     height: 794px;
-    background: url('../images/hero-car.png') center/cover no-repeat;
+    background: url('../images/main_urus.png') center/cover no-repeat;
 }
 
 .hero-content {
@@ -101,7 +100,6 @@ body {
     background: #222;
 }
 
-/* Sections */
 .section-title {
     font-size: 60px;
     font-weight: 900;
@@ -153,8 +151,8 @@ body {
 }
 
 .icon_drive {
-    width: 34px;
-    height: 34px;
+    width: 35px;
+    height: 35px;
     background: url('../images/Drive.png') center/cover no-repeat;
     border-radius: 50%;
     margin: 0 auto 10px;
@@ -162,8 +160,8 @@ body {
 }
 
 .icon_gear {
-    width: 34px;
-    height: 34px;
+    width: 35px;
+    height: 35px;
     background: url('../images/Gear.png') center/cover no-repeat;
     border-radius: 50%;
     margin: 0 auto 10px;
@@ -171,15 +169,14 @@ body {
 }
 
 .icon_seats {
-    width: 34px;
-    height: 34px;
+    width: 35px;
+    height: 35px;
     background: url('../images/Seats.png') center/cover no-repeat;
     border-radius: 50%;
     margin: 0 auto 10px;
     position: relative;
 }
 
-/* Contact */
 .contact-section {
     margin-bottom: 100px;
 }
@@ -230,7 +227,6 @@ body {
     object-fit: cover;
 }
 
-/* Footer */
 .footer {
     border-top: 1px solid #e5e5e5;
     padding: 30px 0;
