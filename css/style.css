@@ -32,16 +32,19 @@ body {
 }
 
 .logo img {
-    width: 113px;
-    height: 39px; 
+    height: 70px;
     object-fit: cover;
-    
+}
+
+.logo p {
+    margin-right: 250px;
 }
 
 .nav ul {
     display: flex;
     gap: 80px;
     list-style: none;
+    margin-right: 300px;
 }
 
 .nav a {
@@ -64,8 +67,7 @@ body {
 
 .hero-content {
     position: absolute;
-    top: 193px;
-    left: 360px;
+    top: 195px;
     max-width: 855px;
 }
 
@@ -103,7 +105,7 @@ body {
 .section-title {
     font-size: 60px;
     font-weight: 900;
-    margin: 120px 0 80px;
+    margin: 120px 0 30px;
 }
 
 .cars-grid {
@@ -117,7 +119,7 @@ body {
     background: #fff;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
     text-align: center;
     transition: transform 0.3s;
 }
@@ -150,10 +152,28 @@ body {
     font-size: 16px;
 }
 
-.icon {
+.icon_drive {
     width: 34px;
     height: 34px;
-    background: #030305;
+    background: url('../images/Drive.png') center/cover no-repeat;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    position: relative;
+}
+
+.icon_gear {
+    width: 34px;
+    height: 34px;
+    background: url('../images/Gear.png') center/cover no-repeat;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    position: relative;
+}
+
+.icon_seats {
+    width: 34px;
+    height: 34px;
+    background: url('../images/Seats.png') center/cover no-repeat;
     border-radius: 50%;
     margin: 0 auto 10px;
     position: relative;
