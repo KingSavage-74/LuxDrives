@@ -154,7 +154,6 @@ body {
     width: 35px;
     height: 35px;
     background: url('../images/Drive.png') center/cover no-repeat;
-    border-radius: 50%;
     margin: 0 auto 10px;
     position: relative;
 }
@@ -163,7 +162,6 @@ body {
     width: 35px;
     height: 35px;
     background: url('../images/Gear.png') center/cover no-repeat;
-    border-radius: 50%;
     margin: 0 auto 10px;
     position: relative;
 }
@@ -172,7 +170,6 @@ body {
     width: 35px;
     height: 35px;
     background: url('../images/Seats.png') center/cover no-repeat;
-    border-radius: 50%;
     margin: 0 auto 10px;
     position: relative;
 }
